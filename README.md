@@ -35,7 +35,7 @@ Our final notebook must:
 * Save a CSV of all retrieved data and a PNG image for each scatter plot.
 
 
-### Observable Trends - Northern and Southern hemisphere Latitude vs Max Temp
+## Observable Trends - Northern and Southern hemisphere Latitude vs Max Temp
 
 ![img](https://github.com/UoT-Bootcamp/WeatherPy-VacationPy/blob/master/Output/linreg_north_lat_temp.png)
 <br>
@@ -47,7 +47,7 @@ As per the Southern hemisphere plot, we observe that as we approach towards the 
 The r-squared value of southern hemisphere is 0.54 which means that the model explains almost all the variability of the data around its mean.
 
 
-### Observable Trends - Northern and Southern hemisphere Latitude vs Humidity(%)
+## Observable Trends - Northern and Southern hemisphere Latitude vs Humidity(%)
 
 ![img](https://github.com/UoT-Bootcamp/WeatherPy-VacationPy/blob/master/Output/linreg_north_lat_humidity.png)
 <br>
@@ -58,7 +58,7 @@ The r-squared value of northern hemisphere is 0.0126 and that of southern hemisp
 
 
 
-### Observable Trends - Northern and Southern hemisphere Latitude vs Cloudiness(%)
+## Observable Trends - Northern and Southern hemisphere Latitude vs Cloudiness(%)
 
 ![img](https://github.com/UoT-Bootcamp/WeatherPy-VacationPy/blob/master/Output/linreg_north_lat_cloudiness.png)
 <br>
@@ -67,7 +67,7 @@ The r-squared value of northern hemisphere is 0.0126 and that of southern hemisp
 Nothern hemisphere is more cloudy than southern hemisphere.
 
 
-### Observable Trends - Northern and Southern hemisphere Latitude vs Wind Speed (mph)
+## Observable Trends - Northern and Southern hemisphere Latitude vs Wind Speed (mph)
 
 ![img](https://github.com/UoT-Bootcamp/WeatherPy-VacationPy/blob/master/Output/linreg_north_lat_wind.png)
 <br>
@@ -91,11 +91,13 @@ In this part, we will be working with weather data to plan our future vacations.
 * Using Google Places API, find the first hotel for each city located within 5000 meters of the City coordinates.
 * Plot the hotels on top of the humidity heatmap with each pin containing the Hotel Name, City, and Country.
 
-### Heatmap:
+## Heatmap:
+<br>
 
 ![img](https://github.com/UoT-Bootcamp/WeatherPy-VacationPy/blob/master/Output/heatmap.png)
 
 ### Hotelmap:
+<br>
 
 ![img](https://github.com/UoT-Bootcamp/WeatherPy-VacationPy/blob/master/Output/hotel_map.png)
 
