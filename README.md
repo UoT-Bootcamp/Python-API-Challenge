@@ -37,6 +37,10 @@ Our final notebook must:
 
 ### Observable Trends - Northern and Southern hemisphere Latitude vs Max Temp
 
+![img](https://github.com/UoT-Bootcamp/WeatherPy-VacationPy/blob/master/Output/linreg_north_lat_temp.png)
+<br>
+![img](https://github.com/UoT-Bootcamp/WeatherPy-VacationPy/blob/master/Output/linreg_south_lat_temp.png)
+
 As we move away from the equator, we observe a decrease in temperature.
 The r-squared value of northern hemisphere is 0.44 which means that the model explains almost all the variability of the data around its mean.
 As per the Southern hemisphere plot, we observe that as we approach towards the equator, the temperature increases.
@@ -45,6 +49,10 @@ The r-squared value of southern hemisphere is 0.54 which means that the model ex
 
 ### Observable Trends - Northern and Southern hemisphere Latitude vs Humidity(%)
 
+![img](https://github.com/UoT-Bootcamp/WeatherPy-VacationPy/blob/master/Output/linreg_north_lat_humidity.png)
+<br>
+![img](https://github.com/UoT-Bootcamp/WeatherPy-VacationPy/blob/master/Output/linreg_south_lat_humidity.png)
+
 Northern hemisphere is more humid than southern hemisphere.
 The r-squared value of northern hemisphere is 0.0126 and that of southern hemisphere is 0.00105 which means that the model failed to explain the variablity of humidity.
 
@@ -52,10 +60,18 @@ The r-squared value of northern hemisphere is 0.0126 and that of southern hemisp
 
 ### Observable Trends - Northern and Southern hemisphere Latitude vs Cloudiness(%)
 
+![img](https://github.com/UoT-Bootcamp/WeatherPy-VacationPy/blob/master/Output/linreg_north_lat_cloudiness.png)
+<br>
+![img](https://github.com/UoT-Bootcamp/WeatherPy-VacationPy/blob/master/Output/linreg_south_lat_cloudiness.png)
+
 Nothern hemisphere is more cloudy than southern hemisphere.
 
 
 ### Observable Trends - Northern and Southern hemisphere Latitude vs Wind Speed (mph)
+
+![img](https://github.com/UoT-Bootcamp/WeatherPy-VacationPy/blob/master/Output/linreg_north_lat_wind.png)
+<br>
+![img](https://github.com/UoT-Bootcamp/WeatherPy-VacationPy/blob/master/Output/linreg_south_lat_wind.png)
 
 In northern hemisphere, most cities are having wind speed in the range between 0 mph to 15 mph.
 In southern hemkisphere, most cities have wind speed between 0 mph to 10 mph.
@@ -74,4 +90,12 @@ In this part, we will be working with weather data to plan our future vacations.
 * Drop any rows that don't contain all three conditions. Be sure the weather is ideal.
 * Using Google Places API, find the first hotel for each city located within 5000 meters of the City coordinates.
 * Plot the hotels on top of the humidity heatmap with each pin containing the Hotel Name, City, and Country.
+
+### Heatmap:
+
+![img](https://github.com/UoT-Bootcamp/WeatherPy-VacationPy/blob/master/Output/heatmap.png)
+
+### Hotelmap:
+
+![img](https://github.com/UoT-Bootcamp/WeatherPy-VacationPy/blob/master/Output/hotel_map.png)
 
