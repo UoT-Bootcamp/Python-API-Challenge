@@ -35,6 +35,30 @@ Our final notebook must:
 * Save a CSV of all retrieved data and a PNG image for each scatter plot.
 
 
+### Observable Trends - Northern and Southern hemisphere Latitude vs Max Temp
+
+As we move away from the equator, we observe a decrease in temperature.
+The r-squared value of northern hemisphere is 0.44 which means that the model explains almost all the variability of the data around its mean.
+As per the Southern hemisphere plot, we observe that as we approach towards the equator, the temperature increases.
+The r-squared value of southern hemisphere is 0.54 which means that the model explains almost all the variability of the data around its mean.
+
+
+### Observable Trends - Northern and Southern hemisphere Latitude vs Humidity(%)
+
+Northern hemisphere is more humid than southern hemisphere.
+The r-squared value of northern hemisphere is 0.0126 and that of southern hemisphere is 0.00105 which means that the model failed to explain the variablity of humidity.
+
+
+
+### Observable Trends - Northern and Southern hemisphere Latitude vs Cloudiness(%)
+
+Nothern hemisphere is more cloudy than southern hemisphere.
+
+
+### Observable Trends - Northern and Southern hemisphere Latitude vs Wind Speed (mph)
+
+In northern hemisphere, most cities are having wind speed in the range between 0 mph to 15 mph.
+In southern hemkisphere, most cities have wind speed between 0 mph to 10 mph.
 
 # Part II - VacationPy
 
